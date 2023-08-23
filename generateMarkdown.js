@@ -65,11 +65,18 @@ ${data.usage}
 
 ${renderLicenseSection(data.license)}
 
-## Credits
+## Contributing
 ${data.contributing}
 
+## Tests
+${data.tests}
+
+## Questions
+For any questions, please reach out via GitHub: [${data.githubUsername}](https://github.com/${data.githubUsername})
+or by email: ${data.email}
+
 ## License
-- Please refer to the LICENSE in the repo. 
+Please refer to the LICENSE in the repo.
 
 `;
 }

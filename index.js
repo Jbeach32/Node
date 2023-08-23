@@ -24,10 +24,36 @@ const questions = [{
     message: "How should users use your application?"
 },
 {
+    type: 'list',
+    name: 'license',
+    message: "Please select a License.",
+    choices: ['MIT License', 'Apache License 2.0', 'GNU GPLv3']
+},
+{
     type: 'input',
-    name: 'credits',
+    name: 'contributing',
     message: "Are there any contributors to your application?"
 },
+{
+    type: 'input',
+    name: 'tests',
+    message: "Please display any tests required to run this application."
+},
+{
+    type: 'input',
+    name: 'questions', 
+    message: "Please type any quesyions you may have and add you Github or email in the following questions so I can respond."
+},
+{
+    type: 'input',
+    name: 'githubUsername', 
+    message: "Please provide your GitHub username:"
+},
+{
+    type: 'input',
+    name: 'email', 
+    message: "Please provide your email address:"
+}
 
 ];
 
